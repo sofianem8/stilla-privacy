@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alcôve — Assistance</title>
+<style>
+  :root{
+    --bg:#0e0c17; --card:#171326; --gold:#e0a56b; --rose:#db6b8c;
+    --mauve:#8f7dc2; --text:#f3ece4; --muted:rgba(243,236,228,.6);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(120% 90% at 50% 0%,#171326 0%,#0e0c17 55%,#08060f 100%);
+    color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.65;padding:56px 20px;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto}
+  .brand{font-family:Georgia,"Times New Roman",serif;font-weight:600;font-size:2.4rem;margin:0 0 4px;
+    background:linear-gradient(90deg,var(--gold),var(--rose));-webkit-background-clip:text;
+    background-clip:text;-webkit-text-fill-color:transparent}
+  .tag{color:var(--muted);font-style:italic;margin:0 0 34px}
+  h2{font-family:Georgia,serif;font-weight:600;font-size:1.25rem;margin:30px 0 10px}
+  .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:18px;
+    padding:22px 26px;margin:0 0 18px}
+  p{margin:0 0 12px}
+  .muted{color:var(--muted)}
+  a{color:var(--rose);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .mail{display:inline-block;margin-top:6px;padding:12px 20px;border-radius:999px;
+    background:linear-gradient(90deg,var(--gold),var(--rose));color:#1a1020;font-weight:600;
+    text-decoration:none}
+  .faq-q{font-weight:600;color:var(--gold);margin:16px 0 4px}
+  footer{color:var(--muted);font-size:.82rem;margin-top:34px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1 class="brand">Alcôve</h1>
+  <p class="tag">Ce qui se passe ici reste ici.</p>
+
+  <div class="card">
+    <p>Alcôve est un journal intime, ludique et privé, pour entretenir la complicité d'un couple — ou son jardin secret. Ni compte, ni serveur, ni publicité, ni traceur : tout vit sur votre appareil. Une sauvegarde iCloud chiffrée existe, désactivée par défaut, et vous seul pouvez la lire.</p>
+  </div>
+
+  <h2>Assistance & contact</h2>
+  <div class="card">
+    <p>Une question, un souci, une suggestion ? Écrivez-nous, on répond.</p>
+    <a class="mail" href="mailto:sofiane.mebchour@live.fr">sofiane.mebchour@live.fr</a>
+  </div>
+
+  <h2>Questions fréquentes</h2>
+  <div class="card">
+    <p class="faq-q">Mes données sont-elles en sécurité ?</p>
+    <p class="muted">Oui. Tout est enregistré sur votre iPhone, chiffré par iOS et protégé par Face ID. Rien n'est envoyé à l'éditeur, rien n'est collecté, il n'y a ni publicité ni outil d'analyse. Si vous activez la sauvegarde iCloud, la copie part dans <em>votre</em> espace iCloud personnel, chiffrée de bout en bout : nous n'y avons aucun accès.</p>
+
+    <p class="faq-q">Que se passe-t-il si je change de téléphone ?</p>
+    <p class="muted">Activez la sauvegarde iCloud depuis Réglages → Sauvegarde. Alcôve conserve alors une copie chiffrée dans votre espace iCloud, mise à jour toute seule pendant que vous utilisez l'app. Sur votre nouvel iPhone, il suffit d'installer Alcôve et de vous connecter au même compte iCloud : l'app vous propose de tout remettre en place — journal, flamme, records, badges, défis.</p>
+    <p class="muted">Sans cette option, vos données restent strictement locales : un téléphone perdu, cassé ou réinitialisé les emporte avec lui.</p>
+
+    <p class="faq-q">La sauvegarde iCloud, c'est vraiment privé ?</p>
+    <p class="muted">Elle est écrite dans la base privée de votre compte iCloud, entièrement chiffrée avec les clés de votre appareil. Ni Apple ni l'éditeur ne peuvent en lire le contenu. Aucun serveur de l'éditeur n'intervient : la copie va de votre iPhone à votre iCloud, et nulle part ailleurs. Vous pouvez la désactiver ou la supprimer à tout moment.</p>
+
+    <p class="faq-q">Comment fonctionne l'abonnement Alcôve+ ?</p>
+    <p class="muted">Alcôve+ débloque les jeux et statistiques avancés. Il se gère depuis les réglages de votre compte Apple (App Store), et peut être résilié à tout moment.</p>
+
+    <p class="faq-q">Comment supprimer mes données ?</p>
+    <p class="muted">Depuis Réglages → Vos données → « Tout supprimer définitivement ». Cela efface les données locales <em>et</em> la copie iCloud, sans retour possible. Désinstaller l'application supprime également l'ensemble des données locales.</p>
+  </div>
+
+  <footer>
+    <p><a href="privacy.html">Politique de confidentialité</a> · © 2026 Sofiane Mebchour</p>
+  </footer>
+
+</div>
+</body>
+</html>
