@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alcôve — Assistance</title>
+<title>Stilla — Assistance</title>
 <style>
   :root{
-    --bg:#0e0c17; --card:#171326; --gold:#e0a56b; --rose:#db6b8c;
-    --mauve:#8f7dc2; --text:#f3ece4; --muted:rgba(243,236,228,.6);
+    --bg:#0f0f0f; --card:#1a1a1a; --gold:#e8d6b8; --bronze:#c4a882;
+    --green:#7fb069; --text:#f5f0e9; --muted:rgba(245,240,233,.6);
   }
   *{box-sizing:border-box}
-  body{margin:0;background:radial-gradient(120% 90% at 50% 0%,#171326 0%,#0e0c17 55%,#08060f 100%);
+  body{margin:0;background:radial-gradient(120% 90% at 50% 0%,#1a1a1a 0%,#0f0f0f 55%,#070707 100%);
     color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
     line-height:1.65;padding:56px 20px;min-height:100vh}
   .wrap{max-width:720px;margin:0 auto}
   .brand{font-family:Georgia,"Times New Roman",serif;font-weight:600;font-size:2.4rem;margin:0 0 4px;
-    background:linear-gradient(90deg,var(--gold),var(--rose));-webkit-background-clip:text;
+    background:linear-gradient(90deg,var(--gold),var(--bronze));-webkit-background-clip:text;
     background-clip:text;-webkit-text-fill-color:transparent}
   .tag{color:var(--muted);font-style:italic;margin:0 0 34px}
   h2{font-family:Georgia,serif;font-weight:600;font-size:1.25rem;margin:30px 0 10px}
@@ -23,10 +23,10 @@
     padding:22px 26px;margin:0 0 18px}
   p{margin:0 0 12px}
   .muted{color:var(--muted)}
-  a{color:var(--rose);text-decoration:none}
+  a{color:var(--bronze);text-decoration:none}
   a:hover{text-decoration:underline}
   .mail{display:inline-block;margin-top:6px;padding:12px 20px;border-radius:999px;
-    background:linear-gradient(90deg,var(--gold),var(--rose));color:#1a1020;font-weight:600;
+    background:linear-gradient(90deg,var(--gold),var(--bronze));color:#0f0f0f;font-weight:600;
     text-decoration:none}
   .faq-q{font-weight:600;color:var(--gold);margin:16px 0 4px}
   footer{color:var(--muted);font-size:.82rem;margin-top:34px;text-align:center}
@@ -35,14 +35,14 @@
 <body>
 <div class="wrap">
 
-  <h1 class="brand">Alcôve</h1>
-  <p class="tag">Ce qui se passe ici reste ici.</p>
+  <h1 class="brand">Stilla</h1>
+  <p class="tag">L'espace entre l'envie et le geste.</p>
 
   <div class="card">
-    <p>Alcôve est un journal intime, ludique et privé, pour entretenir la complicité d'un couple — ou son jardin secret. Ni compte, ni serveur, ni publicité, ni traceur : tout vit sur votre appareil. Une sauvegarde iCloud chiffrée existe, désactivée par défaut, et vous seul pouvez la lire.</p>
+    <p>Stilla ne se contente pas de bloquer votre téléphone : au moment où vous ouvrez une application par réflexe, il vous propose une de vos propres micro-actions à la place. Ni compte, ni serveur, ni publicité, ni traceur — tout reste sur votre iPhone.</p>
   </div>
 
-  <h2>Assistance & contact</h2>
+  <h2>Assistance &amp; contact</h2>
   <div class="card">
     <p>Une question, un souci, une suggestion ? Écrivez-nous, on répond.</p>
     <a class="mail" href="mailto:sofiane.mebchour@live.fr">sofiane.mebchour@live.fr</a>
@@ -50,21 +50,26 @@
 
   <h2>Questions fréquentes</h2>
   <div class="card">
-    <p class="faq-q">Mes données sont-elles en sécurité ?</p>
-    <p class="muted">Oui. Tout est enregistré sur votre iPhone, chiffré par iOS et protégé par Face ID. Rien n'est envoyé à l'éditeur, rien n'est collecté, il n'y a ni publicité ni outil d'analyse. Si vous activez la sauvegarde iCloud, la copie part dans <em>votre</em> espace iCloud personnel, chiffrée de bout en bout : nous n'y avons aucun accès.</p>
+    <p class="faq-q">Rien ne se bloque, que vérifier ?</p>
+    <p class="muted">Trois choses, dans cet ordre : l'autorisation Temps d'écran doit être accordée, au moins une application, catégorie ou site doit être sélectionné, et Sacred Hours doit être activé. L'onglet <strong>Profil</strong> contient un panneau de diagnostic qui vous dit lequel des trois manque, sans avoir à deviner.</p>
+
+    <p class="faq-q">Stilla voit-il quelles applications je bloque ?</p>
+    <p class="muted">Non, et ce n'est pas un choix de notre part : Apple ne le permet pas. Le système Temps d'écran ne transmet à l'application que des jetons opaques, sans nom ni identité. Stilla applique un blocage sur des jetons dont il ignore le contenu. Votre usage ne nous parvient jamais.</p>
 
     <p class="faq-q">Que se passe-t-il si je change de téléphone ?</p>
-    <p class="muted">Activez la sauvegarde iCloud depuis Réglages → Sauvegarde. Alcôve conserve alors une copie chiffrée dans votre espace iCloud, mise à jour toute seule pendant que vous utilisez l'app. Sur votre nouvel iPhone, il suffit d'installer Alcôve et de vous connecter au même compte iCloud : l'app vous propose de tout remettre en place — journal, flamme, records, badges, défis.</p>
-    <p class="muted">Sans cette option, vos données restent strictement locales : un téléphone perdu, cassé ou réinitialisé les emporte avec lui.</p>
+    <p class="muted">Vos données restent strictement locales : Stilla n'a pas de sauvegarde iCloud. Un téléphone perdu, cassé ou réinitialisé emporte objectifs, habitudes et statistiques avec lui. C'est le revers de l'absence totale de serveur, et nous préférons le dire clairement plutôt que de le découvrir au mauvais moment.</p>
 
-    <p class="faq-q">La sauvegarde iCloud, c'est vraiment privé ?</p>
-    <p class="muted">Elle est écrite dans la base privée de votre compte iCloud, entièrement chiffrée avec les clés de votre appareil. Ni Apple ni l'éditeur ne peuvent en lire le contenu. Aucun serveur de l'éditeur n'intervient : la copie va de votre iPhone à votre iCloud, et nulle part ailleurs. Vous pouvez la désactiver ou la supprimer à tout moment.</p>
+    <p class="faq-q">Comment fonctionne l'essai gratuit ?</p>
+    <p class="muted">L'abonnement mensuel commence par un essai gratuit de deux semaines, décompté par Apple. Il n'y a pas de niveau gratuit : l'essai en tient lieu. Un achat unique à vie existe aussi, sans renouvellement. Tout se gère depuis les réglages de votre compte Apple, et se résilie à tout moment.</p>
 
-    <p class="faq-q">Comment fonctionne l'abonnement Alcôve+ ?</p>
-    <p class="muted">Alcôve+ débloque les jeux et statistiques avancés. Il se gère depuis les réglages de votre compte Apple (App Store), et peut être résilié à tout moment.</p>
+    <p class="faq-q">Qu'est-ce que le « résumé intelligent » ?</p>
+    <p class="muted">Sur un iPhone compatible avec Apple Intelligence, la phrase d'accompagnement de votre bilan hebdomadaire peut être reformulée par le modèle embarqué d'Apple, qui s'exécute entièrement sur l'appareil. Aucun texte ne part ailleurs. Les chiffres du bilan, eux, sont toujours calculés par l'application — jamais par un modèle de langage. Sur les autres appareils, une phrase équivalente s'affiche sans que rien ne manque.</p>
+
+    <p class="faq-q">Stilla est-il un outil de contrôle parental ?</p>
+    <p class="muted">Non. Stilla s'adresse à des adultes qui souhaitent réduire leur propre usage, sur leur propre appareil. Il n'y a ni compte enfant, ni tuteur, ni gestion à distance.</p>
 
     <p class="faq-q">Comment supprimer mes données ?</p>
-    <p class="muted">Depuis Réglages → Vos données → « Tout supprimer définitivement ». Cela efface les données locales <em>et</em> la copie iCloud, sans retour possible. Désinstaller l'application supprime également l'ensemble des données locales.</p>
+    <p class="muted">Désinstallez l'application : tout part avec elle, puisqu'il n'existe aucune copie ailleurs. Aucune démarche auprès de nous n'est nécessaire — nous n'avons rien à supprimer.</p>
   </div>
 
   <footer>
